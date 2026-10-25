@@ -1,5 +1,5 @@
 """
-main.py  -  RUN THIS FILE:   python main.py        (Owner: Member 1)
+main.py  -  RUN THIS FILE:   python main.py
 Joins the modules, holds the logged-in user and the selected patient.
 
 Shared state that every page can read:
@@ -13,10 +13,10 @@ from tkinter import ttk, messagebox, simpledialog
 
 import db
 from common import NAVY, BG, RED
-from member1_login import LoginPage
-from member1_patient_audit import PatientInfoPage, AuditPage
-from member2_search_safety import SearchSafetyPage
-from member3_timeline_scribe import TimelineScribePage
+from login_page import LoginPage
+from patient_audit_pages import PatientInfoPage, AuditPage
+from search_safety_page import SearchSafetyPage
+from timeline_scribe_page import TimelineScribePage
 
 IDLE_LIMIT_MS = 5 * 60 * 1000     # 5 minutes. Use 10000 (10 seconds) while testing
 

@@ -1,5 +1,5 @@
 """
-member1_login.py  -  MEMBER 1
+login_page.py  -  login / register screen
 Login / register page with roles (Doctor / Nurse), wrong-password lockout
 and audit logging.
 

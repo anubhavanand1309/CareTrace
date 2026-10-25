@@ -1,8 +1,7 @@
 """
-db.py  -  SHARED database layer for CareTrace (SQLite).  Owner: Member 1.
+db.py  -  database layer for CareTrace (SQLite).
 
-Everyone imports from here. Do NOT change function names or arguments
-without telling the team. All data is SYNTHETIC (fake): never put real
+Every module imports from here. All data is SYNTHETIC (fake): never put real
 patient data in this project.
 """
 

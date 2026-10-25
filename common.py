@@ -1,5 +1,5 @@
 """
-common.py  -  SHARED theme + constants (all members import from here).
+common.py  -  shared theme colours and constants.
 """
 
 NAVY = "#002366"

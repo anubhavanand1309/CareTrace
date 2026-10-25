@@ -1,5 +1,5 @@
 """
-member1_patient_audit.py  -  MEMBER 1
+patient_audit_pages.py  -  patient details and audit log screens
 PatientInfoPage : shows the selected patient + Add Patient dialog
 AuditPage       : audit log viewer with action filter (Doctor only; main.py hides it for Nurses)
 

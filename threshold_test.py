@@ -1,5 +1,5 @@
 """
-threshold_test.py  -  MEMBER 2: Task 3, the threshold experiment.
+threshold_test.py  -  threshold experiment for the cited search.
 Run:   python threshold_test.py
 Tries different thresholds on all 24 test questions and shows what goes wrong at each one.
 

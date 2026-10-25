@@ -1,9 +1,9 @@
 """
-member2_logic.py  -  MEMBER 2   (pure Python logic: NO tkinter in this file)
+search_safety_logic.py  -  cited search + safety checks   (pure Python logic: NO tkinter in this file)
 
 1. search_documents()  cited search: TF-IDF + cosine similarity over one patient's records
 2. check_safety()      allergy, duplicate-drug, drug-interaction and lab-trend flags
-The screen (member2_search_safety.py) only calls these two functions.
+The screen (search_safety_page.py) only calls these two functions.
 
 SAFETY NOTE: the interaction table below is a small DEMO table of well-known pairs.
 It is decision support for a college project, not clinical advice. Cross-check pairs

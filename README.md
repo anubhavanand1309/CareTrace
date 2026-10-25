@@ -34,18 +34,19 @@ Demo data is created automatically the first time. Delete `caretrace.db` to rese
 
 ## Project structure
 ```
-main.py                      app shell: window, tabs, shared user and patient
-db.py                        SQLite layer, users, audit log, synthetic demo data
-common.py                    colours and constants
-member1_login.py             login / register page
-member1_patient_audit.py     patient details and audit log pages
-member2_logic.py             cited search, safety rules, lab trends (no GUI code)
-member2_search_safety.py     Search & Safety screen
-member3_logic.py             timeline, lab series, SOAP scribe, note approval (no GUI code)
-member3_timeline_scribe.py   Timeline & Scribe screen
-test_search.py               measures search accuracy
-threshold_test.py            threshold experiment
+main.py                    app window, tabs, shared user and selected patient
+db.py                      SQLite layer, users, audit log, synthetic demo data
+common.py                  colours and constants
+login_page.py              login and register screen
+patient_audit_pages.py     patient details and audit log screens
+search_safety_logic.py     cited search, safety rules, lab trends (no GUI code)
+search_safety_page.py      Search & Safety screen
+timeline_scribe_logic.py   timeline, lab series, SOAP scribe, note approval (no GUI code)
+timeline_scribe_page.py    Timeline & Scribe screen
+test_search.py             measures search accuracy
+threshold_test.py          threshold experiment
 ```
+Each feature has a `*_logic.py` file with no GUI code (easy to test) and a `*_page.py` file that only draws the screen.
 
 ## Results
 | Test set | Questions | Correct | Accuracy |
@@ -60,3 +61,5 @@ Run `python test_search.py` to reproduce.
 - Synthetic data only; small drug-interaction table; the scribe uses rules, not an LLM
 - Future: word embeddings, OCR for scanned reports, a larger drug database, encryption, and an LLM used only to explain flags
 
+## Author
+Anubhav Anand, SRM KTR (guide: Dr. Kavitha D)

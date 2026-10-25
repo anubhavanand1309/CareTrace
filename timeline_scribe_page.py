@@ -1,5 +1,5 @@
 """
-member3_timeline_scribe.py  -  MEMBER 3   (the SCREEN; the brains are in member3_logic.py)
+timeline_scribe_page.py  -  Timeline & Scribe screen   (the logic is in timeline_scribe_logic.py)
 
 Two sub-tabs:
   Timeline & Labs : all records in date order + a lab chart with the reference range
@@ -18,7 +18,7 @@ from matplotlib.figure import Figure
 from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
 
 import db
-import member3_logic as logic
+import timeline_scribe_logic as logic
 from common import NAVY, GREEN, RED
 
 

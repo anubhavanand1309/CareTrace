@@ -1,5 +1,5 @@
 """
-member2_search_safety.py  -  MEMBER 2   (the SCREEN; the brains are in member2_logic.py)
+search_safety_page.py  -  Search & Safety screen   (the logic is in search_safety_logic.py)
 
 Shows:  1) safety flags for the selected patient
         2) "Ask the records": cited search (answer + source documents)
@@ -12,7 +12,7 @@ import tkinter as tk
 from tkinter import ttk, messagebox
 
 import db
-import member2_logic as logic
+import search_safety_logic as logic
 from common import NAVY
 
 LEVEL_COLOURS = {"HIGH": "#c0392b", "MEDIUM": "#d68910", "LOW": "#555555"}

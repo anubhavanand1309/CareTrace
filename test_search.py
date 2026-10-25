@@ -1,5 +1,5 @@
 """
-test_search.py  -  MEMBER 2: measures how good the cited search is.
+test_search.py  -  measures how good the cited search is.
 Run:   python test_search.py
 It uses a temporary copy of the demo data, so your real caretrace.db is not touched.
 
@@ -16,7 +16,7 @@ import db
 db.DB_FILE = os.path.join(tempfile.mkdtemp(), "test.db")   # fresh demo data every run
 db.init_db()
 
-import member2_logic as logic   # noqa: E402  (import after db is set up)
+import search_safety_logic as logic   # noqa: E402  (import after db is set up)
 
 # (patient_id, question, document type that SHOULD be the top result,
 #  or None when the answer is NOT in the records and the app should say "not found")

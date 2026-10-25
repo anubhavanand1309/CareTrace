@@ -1,11 +1,11 @@
 """
-member3_logic.py  -  MEMBER 3   (pure Python logic: NO tkinter in this file)
+timeline_scribe_logic.py  -  timeline, lab series, SOAP scribe, note approval   (pure Python logic: NO tkinter in this file)
 
 1. get_timeline()      every document and note of a patient in date order
 2. get_lab_series()    lab values over time (for the chart), with HIGH / LOW marks
 3. draft_soap()        rule-based AI scribe: transcript -> draft SOAP note
 4. save / update / approve notes   (only a Doctor can approve; approved notes are locked)
-The screen (member3_timeline_scribe.py) only calls these functions.
+The screen (timeline_scribe_page.py) only calls these functions.
 """
 
 import re
